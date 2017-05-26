@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.rahul.chartChart.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:c="com.rahul.chartChart.customControl" >
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Button text="Change" press="change" />
+					<Button text="Initial" press="initial" />
+					<c:chart id="chart_example" xData='["January", "February", "March", "April", "May", "June", "July"]' yData="[65, 59, 10, 81, 56, 55, 40]" ></c:chart>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
